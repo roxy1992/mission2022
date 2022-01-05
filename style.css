@@ -12,6 +12,16 @@ h1{
     display: flex;
     margin-bottom: 5%;
 }
+
+.missionColoer{
+    color: orange;
+}
+#borderline{
+    border-left: 4px solid;
+    border-color: #FF5959;
+
+}
+
 .top-section{
    
    background-repeat: no-repeat;
