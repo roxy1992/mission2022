@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200&display=swap');
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+ .col-8{
+        flex: 1;
+        text-align: right;
+    }
+
+nav ul li{
+  display: inline-block;
+  padding: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    font-size: 18px;
+}
+
+h1{
+    font-size: 50px;
+}
+.d-flex{
+    display: flex;
+    margin-bottom: 5%;
+}
+.top-section{
+   
+   background-repeat: no-repeat;
+   padding-top: 50px;
+}
+.dream-section{
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.orenge-color{
+  color: orange;
+}
+p{
+    margin-bottom: 40px;
+    padding-right: 20px;
+}
+.hero-btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(green, orange);
+    color: #fff;
+    border-radius: 5px;
+}
+.half-width h2{
+    color: green;
+}
+
+.mission {
+    color: brown;
+    
+    
+}
+.mission2{
+    text-align: center;
+}
+
+
+
+
+.expe-section{
+    background-image: url(assiets/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+}
+.expe-box{
+    width: 40%;
+    margin: 4%;
+    box-shadow: 10px 10px 40px indianred;
+    padding-left: 30px;
+    box-sizing: border-box;
+   padding-bottom: 60px;
+}
+ h2{
+    font-size: 34px;
+}
+.expe-box h3{
+    color: orange;
+}
+.call-to-action{
+    margin: 0 5%;
+    padding: 100px 0;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(assiets/cta.jpg);
+    margin-bottom: 5%;
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.red-btn{
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+/* Testimonial section */
+.testimonial{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+.col-3{
+    width: 31%;
+    margin: 15px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 12px 18px 30px #999;
+    display: flex;
+}
+.col-3 h3{
+   margin: 0;
+   color: teal;
+}
+
+.col-3 h4{
+  margin: 0;
+  font-size: 10px;
+  padding: 10px 0px;
+  color: tomato;
+}
+.col-3 q{
+    font-size: 14px;
+    color: gray;
+    padding-right: 10px;
+    line-height: 8px;
+    font-style: italic;
+}
+.col-3 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 25px;
+    background: gainsboro;
+    margin-left: 10px;
+}
+.contact-section{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.contact-1{
+    width: 40%;
+    padding-top: 100px;
+}
+.contact-1 span{
+    font-size: 28px;
+    color: tomato;
+    font-weight: 700;
+}
+.contact-1 p{
+   color: teal;
+   font-weight: 600;
+   font-weight: 20px;
+}
+.contact{
+    width: 60%;
+    padding-left: 10px;
+}
+.contact input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    background: #f0f0f0;
+    font-size: 18px;
+    resize: none;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.submit-btn{
+    text-decoration: none;
+    padding: 10px 45px;
+    height: auto;
+    background-color: rgba(7, 172, 172, 0.726);
+    border-radius: 5px;
+    color: #fff;
+    width: 92%;
+    display: block;
+    text-align: center;
+
+}
+.footer{
+    padding-top: 50px;
+    background-image: linear-gradient(rgba(248, 128, 16, 0.1), rgba(255, 99, 71, 0.288));
+}
+.col-4{
+    width: 32%;
+}
+.footer h2{
+    font-size: 24px;
+    margin-top:0;
+}
+.footer-cont{
+    padding-left: 40px;
+}
+.footer-cont ul{
+    list-style: none;
+    
+}
+.footer-cont ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: .5s;
+
+}
+
+.footer-cont ul a:hover{
+    color: tomato;
+    padding-left: 5px;
+}
+.copyright{
+    text-align: center;
+    padding: 20px 0;
+    background-color: tomato;
+    color: #fff;
+}
+.footer-link ul li{
+    list-style: none;
+}
+.footer-link ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    color:tomato;
+}
+.footer-link{
+    padding-left: 40px;
+}
+.footer-link ul li a:hover{
+    text-decoration: underline;
+}
+.footer-page{
+    background-color: black;
+    margin: 0%;
+    text-align: center;
+    color: white;
+    height: 220px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.year{
+    color: coral;
+}
